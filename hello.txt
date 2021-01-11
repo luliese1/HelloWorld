@@ -1,6 +1,0 @@
-If anyone still has problems with jumping after pressing the pause button, just add the following inside the curly brackets of the getKeyDown & getMouseDown piece in the PlayerController:
-//This will check if an UI element has been clicked. If so, dont jump!
-if (EventSystem.current.IsPointerOverGameObject())
-{
-          return;
-}
